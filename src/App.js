@@ -3,7 +3,7 @@ import BooksList from "./components/BooksList";
 import { useState } from "react";
 
 function App() {
-  const [subject, setSubject] = useState("Database Systems");
+  const [subject, setSubject] = useState("Javascript");
 
   const books = {
     Javascript: [
@@ -87,19 +87,6 @@ function App() {
       },
     ],
   };
-
-  // "Database Systems": [
-  //   [
-  //     "Database Concepts",
-  //     "images/dbs1.png",
-  //     "https://www.amazon.com/dp/1260084507/ref=as_sl_pc_tf_til?tag=sanfoundry0e-20&linkCode=w00&linkId=60ff5206b3ebfb2fc2f23a63bf581b78&creativeASIN=1260084507",
-  //   ],
-  //   [
-  //     "Database Management systems",
-  //     "images/dbs2.png",
-  //     "https://www.amazon.com/dp/0072465638/ref=as_sl_pc_tf_til?tag=sanfoundry0e-20&linkCode=w00&linkId=6f004cf4e512f697af92c8d61e628fbf&creativeASIN=0072465638https://www.amazon.com/dp/0072465638/ref=as_sl_pc_tf_til?tag=sanfoundry0e-20&linkCode=w00&linkId=6f004cf4e512f697af92c8d61e628fbf&creativeASIN=0072465638",
-  //   ],
-  // ],
 
   const clickHandler = (text) => {
     setSubject(text);
