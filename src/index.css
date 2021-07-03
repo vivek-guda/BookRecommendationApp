@@ -28,7 +28,7 @@ body {
 }
 
 .bookslist {
-  width: 90%;
+  width: 95%;
   /* background-color: yellow; */
   margin: auto;
   margin-top: 2rem;
@@ -48,7 +48,7 @@ body {
   padding: 2rem 0;
   margin: 1rem;
   position: relative;
-  width: 250px;
+  width: 275px;
   height: 275px;
   border-radius: 0.5rem;
   overflow: hidden;
