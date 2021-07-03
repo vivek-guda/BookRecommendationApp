@@ -11,7 +11,11 @@ body {
 }
 
 .heading {
-  margin: 3rem 0 2rem 0;
+  margin: 3rem 1rem 2rem 1rem;
+}
+
+.rating {
+  margin-top: 0;
 }
 
 .btn {
