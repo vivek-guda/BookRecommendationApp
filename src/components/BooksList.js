@@ -7,6 +7,7 @@ const BooksList = ({ books }) => {
         <List
           key={book.title}
           title={book.title}
+          author={book.author}
           rating={book.rating}
           image={book.image}
           link={book.link}
