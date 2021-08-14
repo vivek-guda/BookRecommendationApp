@@ -1,7 +1,19 @@
+:root {
+  --bluishgreen: rgb(100, 255, 218);
+  --darkblue: rgb(66, 153, 225);
+  --lightblue: rgb(181, 230, 225);
+  --neonblue: rgb(107, 226, 214);
+  --bodycolor: #faf0ca;
+  --cardcolor: #f4d35e;
+  --btncolor: #ffb4a2;
+  --textcolor: #0d3b66;
+}
+
 body {
   font-family: "Ubuntu";
   margin: 0;
-  background-color: rgb(181, 230, 225);
+  background-color: var(--bodycolor);
+  color: var(--textcolor);
 }
 
 .container {
@@ -24,7 +36,8 @@ body {
   border: 1px solid rgb(0, 0, 0);
   margin: 0.25rem;
   cursor: pointer;
-  background-color: rgb(172, 238, 189);
+  /* background-color: rgb(172, 238, 189); */
+  background-color: var(--btncolor);
 }
 
 .bookslist {
@@ -44,7 +57,7 @@ body {
 .list {
   /* background-color: green; */
   text-decoration: none;
-  color: black;
+  color: var(--textcolor);
   padding: 2rem 0;
   margin: 1rem;
   position: relative;
@@ -73,7 +86,7 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  background-color: rgb(107, 226, 214);
+  background-color: var(--cardcolor);
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -78,8 +78,15 @@ function App() {
         title: "Operating systems",
         author: "William Stallings",
         rating: "4/5",
-        image: "images/os2.png",
+        image: "images/os3.png",
         link: "https://www.amazon.in/dp/013230998X/ref=as_sl_pc_tf_til?tag=sanfoundry-21&linkCode=w00&linkId=a22410bb560efea760d663e3b0c7073e&creativeASIN=013230998X",
+      },
+      {
+        title: "Modern Operating Systems",
+        author: "K. Vasudevan",
+        rating: "4/5",
+        image: "images/os2.png",
+        link: "https://www.amazon.in/Operating-Subashri-Vasudevan-Sunandhini-Muralidharan/dp/9389447607/ref=sr_1_2_sspa?crid=2CASI2QOKKKES&dchild=1&keywords=operating+system&qid=1628961897&s=books&sprefix=opera%2Cstripbooks%2C-1&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyN1ZIMU1MNERTSzIzJmVuY3J5cHRlZElkPUEwOTk2MTIzM01HVENPTVpJMUwxSyZlbmNyeXB0ZWRBZElkPUEwMjA3MzAzQTJYUFFJT1VRM0IxJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
       },
     ],
     "Database Systems": [
@@ -96,6 +103,13 @@ function App() {
         rating: "4.5/5",
         image: "images/dbs2.png",
         link: "https://www.amazon.com/dp/0072465638/ref=as_sl_pc_tf_til?tag=sanfoundry0e-20&linkCode=w00&linkId=6f004cf4e512f697af92c8d61e628fbf&creativeASIN=0072465638https://www.amazon.com/dp/0072465638/ref=as_sl_pc_tf_til?tag=sanfoundry0e-20&linkCode=w00&linkId=6f004cf4e512f697af92c8d61e628fbf&creativeASIN=0072465638",
+      },
+      {
+        title: "Fundamentals of Database System",
+        author: " Elmasri Ramez",
+        rating: "4/5",
+        image: "images/dbs3.png",
+        link: "https://www.amazon.in/Fundamentals-Database-System-Elmasri-Ramez/dp/933258270X/ref=sr_1_1_sspa?dchild=1&keywords=database+system&qid=1628962055&s=books&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE3RDY3NDhHOUhGSEMmZW5jcnlwdGVkSWQ9QTAxNDgwNjEzRjFHOUtCQUVNUEc4JmVuY3J5cHRlZEFkSWQ9QTAwNDY5NzkyVFZITlJLMUdEOUhIJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==",
       },
     ],
   };
